@@ -1,0 +1,111 @@
+* {
+    color: #fff;
+}
+
+.date, .hours, .food {
+    position: absolute;
+}
+
+input {
+    background-color: #f72b3b;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 185px;
+    height: 55px;
+}
+
+img {
+    margin: 45px 10px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 17px;
+    width: 563px;
+    height: 66px;
+    font-weight: lighter;
+    margin: 10px auto;
+}
+
+section {
+    background-color: #b07cf7;
+    width: 1500px;
+    height: 850px;
+    margin: auto;
+}
+
+.common_unit {
+    display: flex;
+    justify-content: center;
+}
+
+.date {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 50px;
+    bottom: 270px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.hours {
+    display: block;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.general {
+    position: relative;
+}
+
+.lemonade, .shadow_block {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    width: 370px;
+    height: 151px;
+}
+
+.lemonade {
+    left: 19px;
+    bottom: 60px;
+}
+
+.shadow_block {
+    left: 14px;
+    bottom: 60px;
+}
+
+.number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nov {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.food p {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+    width: 100%;
+}
+
+h1, h4, .date, .button, .nov {
+    text-align: center;
+}
+
+.general:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 1s ease-out;
+}
